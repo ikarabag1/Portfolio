@@ -27,5 +27,8 @@ body {
 .center {
   display: flex;
   align-items: center;
-  /* justify-contents: justify */
+  justify-content: center;
+}
+.footer {
+  background-color: aquamarine;
 }

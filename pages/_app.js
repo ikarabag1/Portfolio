@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     </main>
 
     <footer>
-      Irma {new Date().getFullYear}
+    © Irma {new Date().getFullYear()}
     </footer>
     </>
 

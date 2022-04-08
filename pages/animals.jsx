@@ -11,7 +11,7 @@ export default function Animals ({data, otherProp}) {
 export async function getStaticProps() {
     //  we can do all of our ajax/axios/fetch here
     // we can call external APIs, express nackends, next backend
-    const { data } = await axios.get(`${process.env.SERVER_URL}`)
+    const { data } = await axios.get(`${process.env.SERVER_URL}/api/animals`)
     console.log(data)
     // these props are available to us in the component
     return {
